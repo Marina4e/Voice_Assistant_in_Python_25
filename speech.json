@@ -1,0 +1,236 @@
+[
+  {
+    "input": [
+      "hello",
+      "hi",
+      "how are you",
+      "what's up",
+      "how are you doing"
+    ],
+    "output": [
+      "greetings",
+      "good day",
+      "and you",
+      "and I am happy to see you"
+    ]
+  },
+  {
+    "input": [
+      "how are you",
+      "how are you doing",
+      "how are you feeling",
+      "how is your day going"
+    ],
+    "output": [
+      "all good",
+      "try to understanding you",
+      "what you say?",
+      "everything is fine"
+    ]
+  },
+  {
+    "input": [
+      "favourite singer",
+      "who is your favourite singer"
+    ],
+    "output": [
+      "my favourite singer - skriabin",
+      "i love to listen to skriabin"
+    ]
+  },
+  {
+    "input": [
+      "what is your favourite book",
+      "which book do you like the most"
+    ],
+    "output": [
+      "the best book - the book of the fantastic",
+      "I love to read the book of the fantastic"
+    ]
+  },
+  {
+    "input": [
+      "what is your favourite movie",
+      "which movie do you like the most"
+    ],
+    "output": [
+      "the best movie - the movie of the sci-fi",
+      "I love to watch the movie of the sci-fi"
+    ]
+  },
+  {
+    "input": [
+      "programming language",
+      "which programming language do you like the most"
+    ],
+    "output": [
+      "the best programming language - python",
+      "i love to program in python"
+    ]
+  },
+  {
+    "input": [
+      "what book do you recommend",
+      "please recommend a book"
+    ],
+    "output": [
+      "i'm a robot, i can't read books",
+      "i recommend the book of the fantastic"
+    ]
+  },
+  {
+    "input": [
+      "how are you",
+      "whats up",
+      "are you ok",
+      "what are you doing",
+      "what are you doing now",
+      "how are you feeling"
+    ],
+    "output": [
+      "i'm your assistant",
+      "helping you",
+      "just waiting your commands",
+      "waiting when you do some commands",
+      "helping you",
+      "everything is fine"
+    ]
+  },
+  {
+    "input": [
+      "what is your name",
+      "who are you",
+      "how is your name",
+      "what is your last name"
+    ],
+    "output": [
+      "my name is voice assistant",
+      "i'm your assistant",
+      "you can call me how you want",
+      "my last name is robot"
+    ]
+  },
+  {
+    "input": [
+      "thank you",
+      "good bye",
+      "bye",
+      "see you later",
+      "see you soon"
+    ],
+    "output": [
+      "not at all",
+      "good bye",
+      "bye",
+      "see you later",
+      "see you soon"
+    ]
+  },
+  {
+    "input": [
+      "what is ai",
+      "what is artificial intelligence",
+      "what is ai for you",
+      "tell me about ai",
+      "tell me about artificial intelligence",
+      "what do you know about ai"
+    ],
+    "output": [
+      "ai is a technology that can do things that normally require human intelligence",
+      "ai is a machine that can do things that normally require human intelligence",
+      "ai is a technology that can do things that normally require human intelligence",
+      "ai is a machine that can do things that normally require human intelligence",
+      "ai is a technology that can do things that normally require human intelligence",
+      "ai is a machine that can do things that normally require human intelligence"
+    ]
+  },
+  {
+    "input": [
+      "tell me about your self",
+      "what do you know about you",
+      "what do you know about yourself",
+      "what are you capable of",
+      "what are you capable of doing",
+      "what are you capable of doing now"
+    ],
+    "output": [
+      "i'm your assistant",
+      "i'm helping you",
+      "just waiting your commands",
+      "waiting when you do some commands",
+      "helping you",
+      "ready to do your job"
+    ]
+  },
+  {
+    "input": [
+      "what time is it",
+      "what is the time",
+      "what is the time now",
+      "what is the current time",
+      "what is the current time in your country"
+    ],
+    "output": [
+      "it is [time]",
+      "it is [time] now",
+      "it is [time] in your country",
+      "it is [time] for you",
+      "it is [time] in your town",
+      "it is [time] currently"
+    ],
+    "function": "get_time"
+  },
+  {
+    "input": [
+      "random number"
+    ],
+    "output": [
+      "here is a random number [number]",
+      "take a number [number]",
+      "sure here is a number [number]"
+    ],
+    "function": "get_random_number"
+  },
+  {
+    "input": [
+      "flip a coin"
+    ],
+    "output": [
+      "you get [side_win] of the coin and you vin congratulations",
+      "you get [side_loos] of the coin and you lose"
+    ],
+    "function": "get_random_flip"
+  },
+  {
+    "input": [
+      "what is the currency rate"
+    ],
+    "output": [
+      "you will give [paper] hryvnias and [coin] kopecks for one dollar"
+    ],
+    "function": "get_dollar_currency"
+  },
+  {
+    "input": [
+      "let's play",
+      "let's play a game",
+      "let's play a game with you",
+      "play a game",
+      "play a game with you"
+    ],
+    "output": [
+      "i am playing"
+    ],
+    "function": "game"
+  },
+  {
+    "input": [
+      "chat",
+      "chat talk"
+    ],
+    "output": [
+      "[text]"
+    ],
+    "function": "ai"
+  }
+]
